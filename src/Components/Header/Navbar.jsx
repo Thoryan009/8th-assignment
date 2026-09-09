@@ -30,8 +30,8 @@ const Navbar = () => {
               tabIndex={-1}
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow font-bold"
             >
-             <NavLink to="/home">Home</NavLink>
-              <li>App</li>
+              <NavLink to="/home">Home</NavLink>
+              <NavLink to="/apps">App</NavLink>
               <li>Installation</li>
             </ul>
           </div>
@@ -44,13 +44,17 @@ const Navbar = () => {
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu font-bold gap-10 menu-horizontal px-1">
-             <NavLink to="/">Home</NavLink>
-            <li>App</li>
+            <NavLink to="/">Home</NavLink>
+            <NavLink to="/apps">App</NavLink>
+
             <li>Installation</li>
           </ul>
         </div>
-        <div  className=" navbar-end">
-          <a className="btn primary-bg text-white"><FaGithub />Contribute</a>
+        <div className=" navbar-end">
+          <a className="btn primary-bg text-white">
+            <FaGithub />
+            Contribute
+          </a>
         </div>
       </div>
     </header>

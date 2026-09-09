@@ -1,0 +1,506 @@
+[
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiu1xCV2lOXtgnQKgUq-_C5X0lBsdRuWopOK6cHIcyuQ&s=10",
+    "title": "Slack",
+    "companyName": "Slack Technologies",
+    "id": 1,
+    "description": "A collaboration platform for teams to communicate, share files, and manage projects.",
+    "size": 45,
+    "reviews": 18420,
+    "ratingAvg": 4.6,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 420 },
+      { "name": "2 star", "count": 620 },
+      { "name": "3 star", "count": 1420 },
+      { "name": "4 star", "count": 4820 },
+      { "name": "5 star", "count": 11140 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6XfVjltCqcp7iNUdP2wBydrtkS5wG1LOA2iE6_LG_Zw&s",
+    "title": "Notion",
+    "companyName": "Notion Labs",
+    "id": 2,
+    "description": "An all-in-one workspace for notes, documents, project management, and team collaboration.",
+    "size": 38,
+    "reviews": 22150,
+    "ratingAvg": 4.8,
+    "downloads": 30000000,
+    "ratings": [
+      { "name": "1 star", "count": 280 },
+      { "name": "2 star", "count": 410 },
+      { "name": "3 star", "count": 980 },
+      { "name": "4 star", "count": 5120 },
+      { "name": "5 star", "count": 15360 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSebpk8AZpGklpMqMbMCXQpWGixkL-liIf5zJyvzhaYsg&s=10",
+    "title": "Figma",
+    "companyName": "Figma Inc.",
+    "id": 3,
+    "description": "A collaborative interface design and prototyping tool built for modern product teams.",
+    "size": 72,
+    "reviews": 15870,
+    "ratingAvg": 4.7,
+    "downloads": 25000000,
+    "ratings": [
+      { "name": "1 star", "count": 310 },
+      { "name": "2 star", "count": 380 },
+      { "name": "3 star", "count": 870 },
+      { "name": "4 star", "count": 3860 },
+      { "name": "5 star", "count": 10450 }
+    ]
+  },
+  {
+    "image": "https://cdn.mos.cms.futurecdn.net/v2/t:0,l:549,cw:822,ch:822,q:80,w:822/v5L7PaaeKkpKuujHXTsT2d.jpg",
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications",
+    "id": 4,
+    "description": "A video communication platform for meetings, webinars, online events, and team collaboration.",
+    "size": 91,
+    "reviews": 31450,
+    "ratingAvg": 4.5,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 1250 },
+      { "name": "2 star", "count": 1640 },
+      { "name": "3 star", "count": 3890 },
+      { "name": "4 star", "count": 9320 },
+      { "name": "5 star", "count": 15350 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ-4SCPJmfTS6VG_5r5leuOlKQgaULACLDs_LQdBUovQ&s=10",
+    "title": "Trello",
+    "companyName": "Atlassian",
+    "id": 5,
+    "description": "A visual project management tool that helps teams organize tasks using boards and cards.",
+    "size": 31,
+    "reviews": 12980,
+    "ratingAvg": 4.5,
+    "downloads": 20000000,
+    "ratings": [
+      { "name": "1 star", "count": 280 },
+      { "name": "2 star", "count": 390 },
+      { "name": "3 star", "count": 1120 },
+      { "name": "4 star", "count": 3920 },
+      { "name": "5 star", "count": 7270 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFSXLhsZIdiQ8D-t-pv6RMdo47bTKcO3xIr35fw4Kv-w&s",
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "id": 6,
+    "description": "A digital music and podcast streaming service with millions of songs and audio programs.",
+    "size": 86,
+    "reviews": 45200,
+    "ratingAvg": 4.7,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 920 },
+      { "name": "2 star", "count": 1110 },
+      { "name": "3 star", "count": 3020 },
+      { "name": "4 star", "count": 10950 },
+      { "name": "5 star", "count": 29200 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgc_gBloOMWtSOwASAo9fJ12Nclp8Yg4wr4y0eI2L0fw&s=10",
+    "title": "Dropbox",
+    "companyName": "Dropbox Inc.",
+    "id": 7,
+    "description": "A cloud storage service for storing, syncing, and sharing files across devices.",
+    "size": 54,
+    "reviews": 16320,
+    "ratingAvg": 4.4,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 620 },
+      { "name": "2 star", "count": 820 },
+      { "name": "3 star", "count": 1940 },
+      { "name": "4 star", "count": 4520 },
+      { "name": "5 star", "count": 8420 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeVUEKHKUjTpedl6xl1xChKEKeFaWp0ij074-ijJRDQA&s=10",
+    "title": "Canva",
+    "companyName": "Canva Pty Ltd",
+    "id": 8,
+    "description": "An easy-to-use graphic design platform for creating presentations, social posts, posters, and more.",
+    "size": 68,
+    "reviews": 28750,
+    "ratingAvg": 4.8,
+    "downloads": 300000000,
+    "ratings": [
+      { "name": "1 star", "count": 350 },
+      { "name": "2 star", "count": 470 },
+      { "name": "3 star", "count": 1240 },
+      { "name": "4 star", "count": 6340 },
+      { "name": "5 star", "count": 20350 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/github.com",
+    "title": "GitHub",
+    "companyName": "GitHub Inc.",
+    "id": 9,
+    "description": "A developer platform for hosting code, collaborating on projects, and managing software development.",
+    "size": 63,
+    "reviews": 19750,
+    "ratingAvg": 4.8,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 210 },
+      { "name": "2 star", "count": 330 },
+      { "name": "3 star", "count": 910 },
+      { "name": "4 star", "count": 4320 },
+      { "name": "5 star", "count": 13980 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/vercel.com",
+    "title": "Vercel",
+    "companyName": "Vercel Inc.",
+    "id": 10,
+    "description": "A cloud platform for deploying and scaling modern frontend applications and websites.",
+    "size": 29,
+    "reviews": 11240,
+    "ratingAvg": 4.7,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 170 },
+      { "name": "2 star", "count": 240 },
+      { "name": "3 star", "count": 640 },
+      { "name": "4 star", "count": 2840 },
+      { "name": "5 star", "count": 7350 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/shopify.com",
+    "title": "Shopify",
+    "companyName": "Shopify Inc.",
+    "id": 11,
+    "description": "An e-commerce platform that helps businesses build online stores and sell products worldwide.",
+    "size": 74,
+    "reviews": 23680,
+    "ratingAvg": 4.6,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 510 },
+      { "name": "2 star", "count": 720 },
+      { "name": "3 star", "count": 1580 },
+      { "name": "4 star", "count": 5820 },
+      { "name": "5 star", "count": 15050 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/airtable.com",
+    "title": "Airtable",
+    "companyName": "Airtable Inc.",
+    "id": 12,
+    "description": "A flexible database and project management platform for organizing business information.",
+    "size": 42,
+    "reviews": 9850,
+    "ratingAvg": 4.5,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 210 },
+      { "name": "2 star", "count": 310 },
+      { "name": "3 star", "count": 890 },
+      { "name": "4 star", "count": 3010 },
+      { "name": "5 star", "count": 5430 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/asana.com",
+    "title": "Asana",
+    "companyName": "Asana Inc.",
+    "id": 13,
+    "description": "A work management platform designed to help teams track projects, tasks, and deadlines.",
+    "size": 51,
+    "reviews": 14320,
+    "ratingAvg": 4.6,
+    "downloads": 20000000,
+    "ratings": [
+      { "name": "1 star", "count": 260 },
+      { "name": "2 star", "count": 390 },
+      { "name": "3 star", "count": 1040 },
+      { "name": "4 star", "count": 4210 },
+      { "name": "5 star", "count": 8420 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/linear.app",
+    "title": "Linear",
+    "companyName": "Linear Orbit Inc.",
+    "id": 14,
+    "description": "A modern project management tool designed for software development and product teams.",
+    "size": 34,
+    "reviews": 8740,
+    "ratingAvg": 4.9,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 130 },
+      { "name": "3 star", "count": 390 },
+      { "name": "4 star", "count": 1920 },
+      { "name": "5 star", "count": 6210 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/grammarly.com",
+    "title": "Grammarly",
+    "companyName": "Grammarly Inc.",
+    "id": 15,
+    "description": "An AI-powered writing assistant that helps improve grammar, clarity, and communication.",
+    "size": 47,
+    "reviews": 20450,
+    "ratingAvg": 4.6,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 410 },
+      { "name": "2 star", "count": 580 },
+      { "name": "3 star", "count": 1430 },
+      { "name": "4 star", "count": 5780 },
+      { "name": "5 star", "count": 12250 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/discord.com",
+    "title": "Discord",
+    "companyName": "Discord Inc.",
+    "id": 16,
+    "description": "A communication platform for communities, gaming groups, friends, and online teams.",
+    "size": 58,
+    "reviews": 33100,
+    "ratingAvg": 4.7,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 620 },
+      { "name": "2 star", "count": 710 },
+      { "name": "3 star", "count": 2050 },
+      { "name": "4 star", "count": 8430 },
+      { "name": "5 star", "count": 21290 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/microsoft.com",
+    "title": "Microsoft Teams",
+    "companyName": "Microsoft Corporation",
+    "id": 17,
+    "description": "A workplace communication platform for meetings, messaging, file sharing, and collaboration.",
+    "size": 102,
+    "reviews": 38900,
+    "ratingAvg": 4.4,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 1420 },
+      { "name": "2 star", "count": 1780 },
+      { "name": "3 star", "count": 4120 },
+      { "name": "4 star", "count": 11150 },
+      { "name": "5 star", "count": 20430 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/figma.com",
+    "title": "FigJam",
+    "companyName": "Figma Inc.",
+    "id": 18,
+    "description": "A collaborative online whiteboard for brainstorming, workshops, diagrams, and team activities.",
+    "size": 41,
+    "reviews": 7360,
+    "ratingAvg": 4.7,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 110 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 420 },
+      { "name": "4 star", "count": 1720 },
+      { "name": "5 star", "count": 4960 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/jira.com",
+    "title": "Jira",
+    "companyName": "Atlassian",
+    "id": 19,
+    "description": "A project tracking and issue management platform built primarily for software development teams.",
+    "size": 59,
+    "reviews": 17940,
+    "ratingAvg": 4.5,
+    "downloads": 30000000,
+    "ratings": [
+      { "name": "1 star", "count": 430 },
+      { "name": "2 star", "count": 610 },
+      { "name": "3 star", "count": 1560 },
+      { "name": "4 star", "count": 5120 },
+      { "name": "5 star", "count": 10220 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/miro.com",
+    "title": "Miro",
+    "companyName": "Miro",
+    "id": 20,
+    "description": "A visual collaboration platform for brainstorming, planning, workshops, and team ideation.",
+    "size": 44,
+    "reviews": 10540,
+    "ratingAvg": 4.6,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 180 },
+      { "name": "2 star", "count": 260 },
+      { "name": "3 star", "count": 730 },
+      { "name": "4 star", "count": 3190 },
+      { "name": "5 star", "count": 6180 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/stripe.com",
+    "title": "Stripe",
+    "companyName": "Stripe Inc.",
+    "id": 21,
+    "description": "A financial infrastructure platform for online payments, billing, and business operations.",
+    "size": 36,
+    "reviews": 8420,
+    "ratingAvg": 4.8,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 140 },
+      { "name": "3 star", "count": 390 },
+      { "name": "4 star", "count": 1730 },
+      { "name": "5 star", "count": 6060 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/openai.com",
+    "title": "OpenAI",
+    "companyName": "OpenAI",
+    "id": 22,
+    "description": "An artificial intelligence platform providing advanced AI models and tools for developers and users.",
+    "size": 78,
+    "reviews": 26750,
+    "ratingAvg": 4.7,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 450 },
+      { "name": "2 star", "count": 610 },
+      { "name": "3 star", "count": 1480 },
+      { "name": "4 star", "count": 6470 },
+      { "name": "5 star", "count": 17740 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/hubspot.com",
+    "title": "HubSpot",
+    "companyName": "HubSpot Inc.",
+    "id": 23,
+    "description": "A customer platform offering CRM, marketing, sales, customer service, and automation tools.",
+    "size": 67,
+    "reviews": 12680,
+    "ratingAvg": 4.5,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 280 },
+      { "name": "2 star", "count": 420 },
+      { "name": "3 star", "count": 1100 },
+      { "name": "4 star", "count": 3820 },
+      { "name": "5 star", "count": 7060 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/clickup.com",
+    "title": "ClickUp",
+    "companyName": "ClickUp",
+    "id": 24,
+    "description": "An all-in-one productivity platform for tasks, documents, goals, chat, and project management.",
+    "size": 62,
+    "reviews": 15240,
+    "ratingAvg": 4.6,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 290 },
+      { "name": "2 star", "count": 390 },
+      { "name": "3 star", "count": 1120 },
+      { "name": "4 star", "count": 4520 },
+      { "name": "5 star", "count": 8920 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/pinterest.com",
+    "title": "Pinterest",
+    "companyName": "Pinterest Inc.",
+    "id": 25,
+    "description": "A visual discovery platform for finding ideas, inspiration, products, recipes, and creative content.",
+    "size": 73,
+    "reviews": 29500,
+    "ratingAvg": 4.6,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 720 },
+      { "name": "2 star", "count": 830 },
+      { "name": "3 star", "count": 2180 },
+      { "name": "4 star", "count": 7640 },
+      { "name": "5 star", "count": 18130 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/evernote.com",
+    "title": "Evernote",
+    "companyName": "Evernote Corporation",
+    "id": 26,
+    "description": "A note-taking and organization application for capturing ideas, documents, and important information.",
+    "size": 49,
+    "reviews": 13420,
+    "ratingAvg": 4.3,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 620 },
+      { "name": "2 star", "count": 840 },
+      { "name": "3 star", "count": 1860 },
+      { "name": "4 star", "count": 4210 },
+      { "name": "5 star", "count": 5890 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/todoist.com",
+    "title": "Todoist",
+    "companyName": "Doist Inc.",
+    "id": 27,
+    "description": "A task management application for organizing personal and professional to-do lists.",
+    "size": 28,
+    "reviews": 11680,
+    "ratingAvg": 4.7,
+    "downloads": 30000000,
+    "ratings": [
+      { "name": "1 star", "count": 170 },
+      { "name": "2 star", "count": 230 },
+      { "name": "3 star", "count": 670 },
+      { "name": "4 star", "count": 2950 },
+      { "name": "5 star", "count": 7660 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/zoom.us",
+    "title": "Zoom Workplace",
+    "companyName": "Zoom Communications",
+    "id": 28,
+    "description": "A unified workplace platform combining meetings, chat, phone, whiteboards, and collaboration tools.",
+    "size": 95,
+    "reviews": 19860,
+    "ratingAvg": 4.5,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 410 },
+      { "name": "2 star", "count": 590 },
+      { "name": "3 star", "count": 1680 },
+      { "name": "4 star", "count": 5840 },
+      { "name": "5 star", "count": 11340 }
+    ]
+  }
+]
