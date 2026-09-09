@@ -2,7 +2,7 @@ import { FaDownload } from "react-icons/fa";
 import { FaStar } from "react-icons/fa";
 const App = (app) => {
    const {image, ratingAvg, downloads, title} = app.app
-   console.log(app)
+  //  console.log(app)
     return (
            <div className=" ml-5 card bg-base-100  shadow-sm">
             <figure className="  p-5 ">

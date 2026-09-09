@@ -1,24 +1,20 @@
 import React, { useEffect, useState } from "react";
-import { useLoaderData } from "react-router";
+import { NavLink, useLoaderData } from "react-router";
 import App from "../../Components/Apps/App";
 
 const Apps = () => {
+  const apps = useLoaderData();
+  const [allApps, setAllApps] = useState(apps);
 
-    const apps = useLoaderData();
-    const [allApps, setAllApps] = useState(apps);
-
-    const handleSearch = (search) => {
-        console.log(search)
-        if( !search ){ setAllApps(apps)}
-       const filteredApps =  apps.filter(app => app.title.includes(search))
-       setAllApps(filteredApps)
+  const handleSearch = (search) => {
+    // console.log(search)
+    if (!search) {
+      setAllApps(apps);
     }
-    // useEffect(()=>{
-    //         fetch('apps.json').then(res => res.json()).then(data=> setAllApps(data))
+    const filteredApps = apps.filter((app) => app.title.includes(search));
+    setAllApps(filteredApps);
+  };
 
-    // }, [])
-
-    console.log(apps)
   return (
     <div className="bg-base-200 py-10">
       <div className="max-w-7xl mx-auto">
@@ -49,18 +45,31 @@ const Apps = () => {
                   <path d="m21 21-4.3-4.3"></path>
                 </g>
               </svg>
-              <input type="search" onChange={(e) => handleSearch(e.target.value)} placeholder="Search" />
+              <input
+                type="search"
+                onChange={(e) => handleSearch(e.target.value)}
+                placeholder="Search"
+              />
             </label>
           </div>
         </div>
 
-         <div className={`my-10 ${allApps.length > 0 ? 'grid grid-cols-4 gap-5' : 'block'}`}>
-          { allApps.length > 0 ? allApps.map((app) => (
-            <App app={app} key={app.id} />
-          )) : <h2 className="text-5xl text-center font-bold text-red-500 w-full ">No App Found</h2>}
-
+        <div
+          className={`my-10 ${allApps.length > 0 ? "grid grid-cols-4 gap-5" : "block"}`}
+        >
+          {allApps.length > 0 ? (
+            allApps.map((app) => (
+              <NavLink to={`/apps/${app.id}`} key={app.id}>
+                {" "}
+                <App app={app}  />
+              </NavLink>
+            ))
+          ) : (
+            <h2 className="text-5xl text-center font-bold text-red-500 w-full ">
+              No App Found
+            </h2>
+          )}
         </div>
-
       </div>
     </div>
   );
