@@ -3,6 +3,8 @@ import Root from "../Pages/Root";
 import Home from "../Pages/Home/Home";
 import Apps from "../Pages/Apps/Apps";
 import AppInfo from "../Pages/Apps/AppInfo";
+import PageNotFound from "../Pages/PageNotFound";
+import Installation from "../Pages/Home/Installation";
 
 const router = createBrowserRouter([
   {
@@ -29,13 +31,17 @@ const router = createBrowserRouter([
         Component: AppInfo,
       },
       {
-        path: "*",
-        element: <div> No app found yetttttttttt</div>,
+        path: '/installaton',
+         loader: () => {
+          return fetch("/apps.json").then((res) => res.json());
+        },
+        Component: Installation
       },
+     
 
       {
         path: "*",
-        element: <div> No page found</div>,
+        Component: PageNotFound,
       },
     ],
   },

@@ -24,7 +24,10 @@ const Apps = () => {
         </div>
         <div className="grid grid-cols-4 gap-5 ">
           {shortApps.map((app) => (
-            <App app={app} key={app.id} />
+            <NavLink to={`/apps/${app.id}`} key={app.id}>
+                {" "}
+                <App app={app}  />
+              </NavLink>
           ))}
         </div>
        <div className="text-center py-10">

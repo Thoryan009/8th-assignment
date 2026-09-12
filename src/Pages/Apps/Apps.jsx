@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from "react";
-import { NavLink, useLoaderData } from "react-router";
+import { NavLink, useLoaderData, useNavigate, useNavigation } from "react-router";
 import App from "../../Components/Apps/App";
+import { Atom } from "react-loading-indicators";
 
 const Apps = () => {
   const apps = useLoaderData();
+  const navigate = useNavigation();
   const [allApps, setAllApps] = useState(apps);
 
   const handleSearch = (search) => {
@@ -14,6 +16,8 @@ const Apps = () => {
     const filteredApps = apps.filter((app) => app.title.includes(search));
     setAllApps(filteredApps);
   };
+
+  if(navigate.state === 'loading') return <div className="flex justify-center items-center"><Atom text="Loading"  color={["#32cd32", "#327fcd", "#cd32cd", "#cd8032"]} /></div>
 
   return (
     <div className="bg-base-200 py-10">

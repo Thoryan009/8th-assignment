@@ -2,9 +2,9 @@ import React from "react";
 import { IoLogoGooglePlaystore } from "react-icons/io5";
 import { FaAppStoreIos } from "react-icons/fa";
 const Banner = () => {
-    // const 
+  // const
   return (
-    <div >
+    <div>
       <div className="hero bg-base-200 ">
         <div className="hero-content pt-20 pb-0 text-center">
           <div className="">
@@ -17,16 +17,21 @@ const Banner = () => {
               At HERO.IO , we craft innovative apps designed to make everyday
               life simpler, smarter, and more exciting. Our goal is to turn your
               ideas into digital experiences that truly make an impact.
-            </p>
+            </p> 
             <div className="flex gap-5 justify-center mb-8">
+                <a href="https://play.google.com/store/apps?hl=en" target="_blank">
               <button className="btn btn-outline">
-                {" "}
-                <IoLogoGooglePlaystore /> Google Play Store
+                  {" "}
+                  <IoLogoGooglePlaystore /> Google Play
               </button>
-              <button className="btn btn-outline">
+                </a>
+              <a href="https://www.apple.com/app-store/" target="_blank">
                 {" "}
-                <FaAppStoreIos /> App Store
-              </button>
+                <button className="btn btn-outline">
+                  {" "}
+                  <FaAppStoreIos /> App Store
+                </button>
+              </a>
             </div>
             <div>
               <img src="/assets/hero.png" alt="" />
@@ -34,8 +39,10 @@ const Banner = () => {
           </div>
         </div>
       </div>
-        <div className="primary-bg text-white p-16">
-        <h4 className="font-extrabold  text-center text-5xl pb-10">Trusted by Millions, Built for You</h4>
+      <div className="primary-bg text-white p-16">
+        <h4 className="font-extrabold  text-center text-5xl pb-10">
+          Trusted by Millions, Built for You
+        </h4>
         <div className="flex justify-center gap-25">
           <div className="text-center space-y-5">
             <h6 className="font-thin ">Total Downloads</h6>

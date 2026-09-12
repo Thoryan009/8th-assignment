@@ -32,12 +32,12 @@ const Navbar = () => {
             >
               <NavLink to="/home">Home</NavLink>
               <NavLink to="/apps">App</NavLink>
-              <li>Installation</li>
+              <NavLink to="/installaton">Installation</NavLink>
             </ul>
           </div>
           <div>
-            <a className="btn primary-color btn-ghost text-xl">
-              <img className="w-10" src="/assets/logo.png" alt="" />
+            <a className="btn primary-color btn-ghost text-xl" href="/">
+              <img className=" w-10" src="/assets/logo.png" alt="" />
               HERO.IO
             </a>
           </div>
@@ -46,12 +46,15 @@ const Navbar = () => {
           <ul className="menu font-bold gap-10 menu-horizontal px-1">
             <NavLink to="/">Home</NavLink>
             <NavLink to="/apps">App</NavLink>
-
-            <li>Installation</li>
+            <NavLink to="/installaton">Installation</NavLink>
           </ul>
         </div>
         <div className=" navbar-end">
-          <a className="btn primary-bg text-white">
+          <a
+            className="btn primary-bg text-white"
+            target="_blank"
+            href="https://github.com/Thoryan009"
+          >
             <FaGithub />
             Contribute
           </a>

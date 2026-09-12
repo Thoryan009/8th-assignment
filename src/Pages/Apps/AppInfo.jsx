@@ -1,18 +1,53 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useParams, useLoaderData } from "react-router";
 import { FiDownload } from "react-icons/fi";
 import { IoStar } from "react-icons/io5";
 import { TfiThumbUp } from "react-icons/tfi";
+import {
+  BarChart,
+  Bar,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+  Legend,
+} from "recharts";
+import { isExist, saveApps } from "../../helpers/localstorage";
+import AppNotFound from "../AppNotFound";
+// import { generateMockData, RechartsDevtools } from '@recharts/devtools';
+
 const AppInfo = () => {
   const params = useParams();
-
+  const [ifExist, setIfExist] = useState(isExist(parseInt(params.id)))
+  // useEffect(() => {
+  //   setIfExist(isExist(params.id));
+  // }, []);
+// console.log(isExist(params.id))
   const apps = useLoaderData();
   const app = apps.find((app) => parseInt(app.id) === parseInt(params.id));
   if (!app) {
-    return <div>App not found</div>;
+    return <AppNotFound/>;
   }
-  const { image, ratingAvg, downloads, title, reviews, size } = app;
+
+  const {
+    image,
+    id,
+    ratingAvg,
+    downloads,
+    title,
+    reviews,
+    size,
+    ratings,
+    description,
+  } = app;
   console.log(app);
+
+  const handleClick = (id) => {
+    console.log("clieck bro")
+    saveApps(id);
+    //  setIfExist(isExist(id));
+     setIfExist(true)
+  };
 
   return (
     <div className="bg-base-200">
@@ -50,13 +85,47 @@ const AppInfo = () => {
               </div>
             </div>
             <div>
-              <button className="btn bg-green-400 text-white ">
-                Install Now ({size} MB){" "}
+              <button
+                onClick={() => handleClick(id)}
+                disabled={ifExist}
+                className="btn bg-green-400 text-white "
+              >
+                {ifExist ?   "Installed" : `Install Now (${size} MB)`}
               </button>
             </div>
           </div>
         </div>
-        
+        <div>
+          <h3 className="text-2xl font-bold text-start text-orange-400">
+            Ratings
+          </h3>
+          <BarChart
+            style={{
+              width: "100%",
+              maxWidth: "700px",
+              maxHeight: "70vh",
+              aspectRatio: 1.618,
+            }}
+            responsive
+            data={ratings}
+            margin={{
+              top: 5,
+              right: 0,
+              left: 30,
+              bottom: 5,
+            }}
+          >
+            {/* <CartesianGrid /> */}
+            <XAxis dataKey="name" />
+            <YAxis width="auto" dataKey="count" />
+            <Tooltip />
+            <Legend />
+            <Bar dataKey="count" radius={[10, 10, 0, 0]} />
+            {/* <RechartsDevtools /> */}
+          </BarChart>
+        </div>
+        <h4 className="text-2xl font-bold">Description</h4>
+        <p className="text-xs text-gray-600">{description}</p>
       </div>
     </div>
   );
